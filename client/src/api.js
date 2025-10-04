@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000", // backend URL for development
+  baseURL: "https://barter-system-bice.vercel.app/", 
 });
 
 // Add token automatically if logged in
